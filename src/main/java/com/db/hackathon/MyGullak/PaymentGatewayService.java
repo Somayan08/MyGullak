@@ -31,6 +31,10 @@ public class PaymentGatewayService {
 
         Order order = client.orders.create(orderRequest);
 
+//        MessageRequest messageRequest = new MessageRequest();
+//        messageRequest.setPhNumber("+918910639767");
+//        messageRequest.setMessage("Payment made successfully! Payment Id: " + order.get("id"));
+//        messageSenderService.sendMessage(messageRequest);
 
 //        MessageRequest messageRequest = new MessageRequest();
 //        messageRequest.setPhNumber("+918910639767");
